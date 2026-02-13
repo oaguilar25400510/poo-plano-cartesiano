@@ -22,7 +22,7 @@ public class Distancia {
     private void calcular() {
         double dx = puntoB.getX() - puntoA.getX();
         double dy = puntoB.getY() - puntoA.getY();
-        this.distancia = Math.sqrt(dx * dx + dy * dy);
+        this.distancia = Math.sqrt(Math.pow(dx,2) + Math.pow( dy,2));
     }
 // Subtema 2.4 — Getter con retorno de valor
 
